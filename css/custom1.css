@@ -279,7 +279,9 @@ p{color:#434242;}
 	.L1 .call img{margin-bottom: 4px;
     height: 18px;padding-top:0px;}
 	.r3 img{width:100%;}.formdiv{height:375px;}
-	form {padding-top:260px;}
+	form {padding-top:250px;}
+	.swth h4 {
+    font-size: 18px;}
 }
 .bg-orng{background-color:#cd2319;}
 .text-yellow{color:#fff1a9;}
@@ -348,7 +350,7 @@ p{color:#434242;}
     height: 168px;
     background-repeat: no-repeat;
     background-size: contain;}
-	.swth{padding-top:10px;}
+	.swth{padding-top:35px;}
 .L1 .call img {
     margin-bottom: 4px;
     height:17px;
