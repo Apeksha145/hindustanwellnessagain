@@ -67,8 +67,8 @@ p{color:#434242;}
 	h3{font-size:17px;}
 	p{font-size:8px;}
 	/*.L1 img{padding-top:13px;}*/
-	.L1 .call ,h4  h5{font-size:13px;text-align:right;color:white;letter-spacing: 0;}
-	.call h5 {margin: 0;font-size: 13px;}
+	.L1 .call ,h4  h5{font-size:10px;text-align:right;color:white;letter-spacing: 0;}
+	.call h5 {margin: 0;font-size: 10px;}
 	.c1{margin-top:317px;}
 	.media-body h6{font-weight: bold;font-size:9px;}
 	.table{font-size:10px;}
@@ -231,7 +231,7 @@ p{color:#434242;}
 	.L1 .call img{margin-bottom: 4px;
     height: 18px;padding-top:0px;}
 	.r3 img{width:100%;}
-	form {padding-top:160px;}
+	form {padding-top:160px;}.L1 img{padding-top:5px;}
 }
 @media only screen and (max-width:359px){.formdiv{height:395px;}form {padding-top:120px;}}
 @media only screen and (min-device-width:360px) and (max-width:365px){.formdiv{height:400px;}form {padding-top:155px;}}
@@ -243,6 +243,15 @@ p{color:#434242;}
 	.r3 img{width:100%;}
 	form {padding-top:180px;}
 	.swth {padding-top: 48px;}
+	.L1 .call, h4 h5 {
+    font-size: 12px;
+    text-align: right;
+    color: white;
+    letter-spacing: 0;
+}
+.call h5 {
+    margin: 0;
+    font-size: 12px;}
 }
 @media only screen and (min-device-width:401px) and (max-width:411px){
 	form {padding-top:164px;}
@@ -250,14 +259,22 @@ p{color:#434242;}
 @media only screen and (min-device-width:481px) and (max-width:735px){
 	.marg{margin-top:20px;}
 	.L1 .call img{margin-bottom: 4px;
-    height: 18px;padding-top:0px;}
+    height:18px !important;padding-top:0px;}
 	.r3 img{width:100%;}
 	form {padding-top:240px;}.formdiv{height:375px;}
     .swth h4{font-size:18px;}.swth {padding-top: 85px;}
+	.call h5 {
+    margin: 0;
+    font-size: 15px;}
+	.L1 .call, h4 h5 {
+    font-size: 18px;
+    text-align: right;
+    color: white;
+    letter-spacing: 0;
+}
 }
 @media only screen and (min-device-width:700px) and (max-width:734px){
 	.marg{margin-top:20px;}
-	.h4im img{display:none;}
 	.L1 .call img{margin-bottom: 4px;
     height: 18px;padding-top:0px;}
 	.r3 img{width:100%;}
@@ -266,13 +283,16 @@ p{color:#434242;}
 	.L1 .call, h4 h5 {
     font-size: 18px;
     text-align: right;}
+	.L1 .call img {
+    margin-bottom: 4px;
+    height:18px !important;
+    padding-top: 0px;}
 	.swth h4 {
     font-size: 18px;}
 	.swth {padding-top:18px;}
 }
 @media only screen and (min-device-width:735px) and (max-width:768px){
 	.marg{margin-top:20px;}
-	.h4im img{display:none;}
 	.call h5 {
     margin: 0;
     font-size: 15px;}
@@ -282,6 +302,12 @@ p{color:#434242;}
 	form {padding-top:250px;}
 	.swth h4 {
     font-size: 18px;}
+	.L1 .call, h4 h5 {
+    font-size: 18px;
+    text-align: right;
+    color: white;
+    letter-spacing: 0;
+}
 }
 .bg-orng{background-color:#cd2319;}
 .text-yellow{color:#fff1a9;}
@@ -331,7 +357,7 @@ p{color:#434242;}
 
 .L1 .call img {
     margin-bottom: 4px;
-    height:15px;
+    height:12px;
     padding-top: 0px;
 }
 
@@ -381,7 +407,7 @@ p{color:#434242;}
 .swth{padding-top:40px;}
 .L1 .call img {
     margin-bottom: 4px;
-    height: 25px;
+    height: 18px;
     padding-top: 0px;
 }
 .boxshd1{
@@ -470,9 +496,11 @@ form,h5{font-size:15px;}
     text-align: right;
     color: white;
     letter-spacing: 0;}
-	.call h5 {
-    margin: 0;
-    font-size: 15px;}
+	.call h5 { margin: 0;font-size: 17px;}
+	.L1 .call img {
+    margin-bottom: 4px;
+    height:18px;
+    padding-top: 0px;}
 	.swth h4{font-size:15px;}.swth {padding-top:15px;}
 }
 @media only screen and (min-device-width:769px) and (max-width:835px)
