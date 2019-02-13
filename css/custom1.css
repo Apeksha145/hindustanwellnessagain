@@ -62,7 +62,7 @@ p{color:#434242;}
 }
 @media only screen and (min-device-width:320px) and (max-device-width:767px)
 {
-	h4{font-size:12px;}
+	h4{font-size:13px;}
 	h5{font-size:22px;}
 	h3{font-size:17px;}
 	p{font-size:8px;}
@@ -187,7 +187,6 @@ p{color:#434242;}
 	}
 		.bg-red {
 		color: #C71106;
-		font-size: 12px;
 	}
 	.bg-light1 {
 		border-radius: 50px;
@@ -231,17 +230,19 @@ p{color:#434242;}
 	.L1 .call img{margin-bottom: 4px;
     height: 18px;padding-top:0px;}
 	.r3 img{width:100%;}
-	form {padding-top:160px;}.L1 img{padding-top:5px;}
+	form {padding-top:297px;}.L1 img{padding-top:5px;}
+	
 }
-@media only screen and (max-width:359px){.formdiv{height:395px;}form {padding-top:120px;}}
-@media only screen and (min-device-width:360px) and (max-width:365px){.formdiv{height:400px;}form {padding-top:155px;}}
-@media only screen and (min-device-width:375px) and (max-width:480px){.formdiv{height:365px;}}
+@media only screen and (max-width:359px){.formdiv{height:395px;}form {padding-top:238px;}}
+@media only screen and (min-device-width:360px) and (max-width:365px){.formdiv{height:400px;}form {padding-top:284px;}}
+@media only screen and (min-device-width:375px) and (max-width:480px){.formdiv{height:375px;}}
 @media only screen and (min-device-width:411px) and (max-width:480px){
 	.marg{margin-top:20px;}
 	.L1 .call img{margin-bottom: 4px;
     height: 18px;padding-top:0px;}
 	.r3 img{width:100%;}
-	form {padding-top:180px;}
+	form {padding-top:311px;}
+	.swth h4{font-size:16px;}
 	.swth {padding-top: 48px;}
 	.L1 .call, h4 h5 {
     font-size: 12px;
@@ -254,14 +255,16 @@ p{color:#434242;}
     font-size: 12px;}
 }
 @media only screen and (min-device-width:401px) and (max-width:411px){
-	form {padding-top:164px;}
+	form {padding-top:327px;}
 }
+@media only screen and (min-device-width:375px) and (max-width:400px){.swth h4{font-size:16px;}}
+
 @media only screen and (min-device-width:481px) and (max-width:735px){
 	.marg{margin-top:20px;}
 	.L1 .call img{margin-bottom: 4px;
     height:18px !important;padding-top:0px;}
 	.r3 img{width:100%;}
-	form {padding-top:240px;}.formdiv{height:375px;}
+	form {padding-top:425px;}.formdiv{height:365px;}
     .swth h4{font-size:18px;}.swth {padding-top: 85px;}
 	.call h5 {
     margin: 0;
@@ -297,8 +300,8 @@ p{color:#434242;}
     margin: 0;
     font-size: 15px;}
 	.L1 .call img{margin-bottom: 4px;
-    height: 18px;padding-top:0px;}
-	.r3 img{width:100%;}.formdiv{height:375px;}
+    height:18px !important;padding-top:0px;}
+	.r3 img{width:100%;}.formdiv{height:385px;}
 	form {padding-top:250px;}
 	.swth h4 {
     font-size: 18px;}
@@ -463,7 +466,7 @@ form,h5{font-size:15px;}
     padding: 18px 2px 22px 11px;
 }
 .r3 {
-    padding-bottom: 40px;
+    padding-bottom:30px;
 }
 }
 @media only screen and (min-device-width:1421px) and (max-width:2560px){
@@ -480,7 +483,7 @@ form,h5{font-size:15px;}
     padding: 18px 2px 22px 11px;
 }
 .r3 {
-    padding-bottom: 40px;
+    padding-bottom:35px;
 }
 .L1 .call img {
     margin-bottom: 4px;
@@ -490,7 +493,7 @@ form,h5{font-size:15px;}
 }
 @media only screen and (min-device-width:611px) and (max-width:665px)
 {
-	form {padding-top:200px;}.formdiv{height:375px;}
+	form {padding-top:195px;}.formdiv{height:375px;}
 	.L1 .call, h4 h5 {
     font-size: 16px;
     text-align: right;
